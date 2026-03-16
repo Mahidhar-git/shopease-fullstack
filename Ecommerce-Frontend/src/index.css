@@ -1,0 +1,88 @@
+.dark-theme{
+    --root_background: #1f1f1f;}
+    .light-theme{
+        --root_background: white;
+    }
+:root{
+    background-color: #1f1f1f;
+}
+* {
+  color: #ffffff;
+}
+
+.navbar, nav {
+  color: #ffffff !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, button, li {
+  color: #ffffff !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.dropdown-menu {
+  background: #1a1a2e !important;
+}
+
+.dropdown-item {
+  color: #ffffff !important;
+}
+
+body {
+  background: #0f0c29 !important;
+}
+@media (max-width: 768px) {
+  div[style*="paddingTop: 90px"],
+  div[style*="paddingTop: 70px"] {
+    padding-top: 130px !important;
+  }
+}
+@media (min-width: 769px) {
+  .footer-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+}
+@media (max-width: 768px) {
+  .product-layout {
+    grid-template-columns: 1fr !important;
+  }
+  .cart-layout {
+    grid-template-columns: 1fr !important;
+  }
+  .add-product-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 768px) {
+  .add-product-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .add-product-row {
+    grid-template-columns: 1fr !important;
+  }
+}
